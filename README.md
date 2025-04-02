@@ -1,18 +1,18 @@
 # hello
 
-Snippets from coding interview practice, etc.
+Coding / algorithm practice.
 
 ## INSTALL
 
-```
-pip install -U -r requirements.txt
+```sh
+python3 -m venv ~/venv # ONCE
+source ~/venv/bin/activate # EACH SESSION
+pip install -U -r requirements.txt # ONCE'ish
 ```
 
-## helpful vim mappings
+## vim mappings
 
 ```
 " python
-nmap pr :w<Return>:!python3 % \| less<Return>
-nmap pt :w<Return>:!pytest %<Return>
-nmap pf :w<Return>:!black %<Return>
+nmap <F10> :w!<Return>:!black %<Return>:!python3 %<Return>
 ```
