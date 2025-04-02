@@ -12,7 +12,7 @@ pip install -U -r requirements.txt # ONCE'ish
 
 ## vim mappings
 
-```
+```vim
 " python
 nmap <F10> :w!<Return>:!black %<Return>:!python3 %<Return>
 ```
